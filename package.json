@@ -1,0 +1,23 @@
+{
+  "name": "discord-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "localtunnel": "^2.0.2",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
